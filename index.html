@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="썬랕 - 프로필 링크" />
+    <meta property="og:description" content="선연's" />
+    <meta property="og:image" content="IMG_9144.JPG" />
+    <title>썬랕 - 프로필 링크</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+        * {
+            font-family: "Pretendard", serif;
+        }
+
+        body {
+            background-color: skyblue;
+        }
+
+        .profile {
+            width: 100px;
+            height: 100px;
+
+            border-radius: 100%;
+
+            border: 2px solid white;
+
+            background-image: url('./IMG_9144.JPG');
+            background-position: center;
+            background-size: cover;
+        }
+
+        .main {
+            color: white;
+            font-size: 20px;
+
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .sub {
+            color: white;
+            font-size: 14px;
+
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        .wrap {
+            width: 300px;
+            margin: 50px auto 0px auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wrap>a {
+            width: 300px;
+            height: 50px;
+
+            background-color: white;
+            border-radius: 8px;
+
+            margin-bottom: 15px;
+
+            font-size: 14px;
+            font-weight: bold;
+            color: skyblue;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-decoration: none;
+
+            box-shadow: 3px 3px 5px 0px black;
+        }
+        .wrap>a:hover {
+            background-color: #acf3ed;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="profile"></div>
+        <h1 class="main">썬랕</h1>
+        <p class="sub">선연's</p>
+        <a target="_blank" href="https://blog.naver.com/gjtjsdus95">BLOG</a>
+        <a target="_blank" href="https://instagram.com/y_958652">INSTAGRAM</a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCmaocA3VVXjNgkjlcsQ7JWw">YOUTUBE</a>
+    </div>
+</body>
+
+</html>
